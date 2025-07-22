@@ -39,7 +39,6 @@ export default function App() {
     return {
       labels: solKeys.map((sol: string) => `Sol ${sol}`),
       datasets: [
-
         {
           label: 'Max Температура (°C)',
           data: solKeys.map((sol: string) => data[sol].AT.mx),
